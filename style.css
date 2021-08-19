@@ -2,6 +2,16 @@
     background: #96BE8C;
 }
 
+.bg-brown {
+    /* background: #6B654B; */
+    /* background: #A38560;
+    background: #CDC776; */
+    background: #735F3D;
+
+
+    
+}
+
 .text-color-dark-green {
     color: #629460;
 }
@@ -9,6 +19,12 @@
 .green-border {
     border: 3px solid #629460;
     border-radius: 2em 1em 4em / 0.5em 3em;
+
+}
+
+.green-border-radius {
+    border: 3px solid #629460;
+    border-radius: 15px 50px;
 
 }
 
@@ -22,7 +38,6 @@
     position: relative;
     text-decoration: none;
     font-size: 1.5rem;
-    font-family: 'Roboto Condensed', sans-serif;
   }
   
 .menu a::after {
@@ -42,11 +57,6 @@
     transform: scaleX(1);
 }
 
-/* #home .card {
-    border-color: #629460;
-    border: 2px solid #629460;
-   
-} */
 
 #sname {
     margin: 50px;
@@ -69,11 +79,26 @@
     color: #629460;
 }
 
-
+/*
+*About Page
+*/
 
 #about {
     background-color: #96BE8C;
 }
+
+.profile img {
+    height: 300px;
+}
+
+/*
+*Contact Page
+*/
+textarea {
+    resize: none;
+}
+
+
 
 
 

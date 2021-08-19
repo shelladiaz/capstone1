@@ -15,20 +15,13 @@
         <link rel="stylesheet" href="./style.css" type="text/css">
         <!--end custom css-->
         <!--fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+        
         <title>Shella Marie | Software Developer</title>
 
     </head>
     <body>
         <!--Start of navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light-green menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-brown menu">
             <a class="navbar-brand" href="#home"><h3 id="logo" class="icon pt-2 text-white">ella;</h3></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,13 +32,13 @@
                         <a class="nav-link text-white " href="#">About</a>
                     </li>
                     <li class="nav-item pr-2">
-                        <a class="nav-link  text-white" href="#">My Skills</a>
+                        <a class="nav-link  text-white" href="#skills">My Skills</a>
                     </li>
                     <li class="nav-item pr-2">
-                        <a class="nav-link  text-white" href="#">Work</a>
+                        <a class="nav-link  text-white" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">Contact</a>
+                        <a class="nav-link  text-white" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -58,57 +51,132 @@
                         <h1>Hi! I'm Ella,</h1>
                         <h1>web developer</h1>
                         <h5 class="course">Front End Developer | Back End Developer | Full Stack Developer</h5>
-                        <button type="button" class="btn btn-outline-success mt-3">Contact Me!</button>
+                        <a class="btn btn-outline-success mt-3" href="#contact" role="button">Contact Me!</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container-fluid p-5 my-5" id="about">
-            <div class="row">
-                <div class="col-12 col-md-6">
+            <div class="row h-100" >
+                <div class="col-12 col-md-6 order-2 order-md-1">
                     <div class="card-body white-border text-center">
-                        <h1 class="text-center text-white">About</h1>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
+                        <h1 class="text-center text-white">Me, Myself & I</h1>
+                        <h6 class="card-subtitle my-2 text-muted ">Shella Marie Diaz</h6>
+                        <p class="card-text text-white my-3">I’m a Software Developer located in Manila, Philippines. At my day job, I 
+                            develop websites and I love experimenting with different UI effects and animations. I also 
+                            freelance when I can, mostly building custom websites based on client's preferences.</p>
+                        <p class="card-text text-white">Well-organized person, problem solver, independent employee with high 
+                            attention to detail. Fan of anime, TV series and music. </p>
+                        <p class="card-text text-white">I am always experimenting, a good listener and always learning and an optimistic person.</p>
+                        <a href="#contact" class="card-link">Wanna create something special with me?</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="text-center">
-                        <img class="rounded-circle img-fluid" src="./images/me.jpg"/>
+                <div class="col-12 col-md-6 order-1 order-md-2">
+                    <div class="card-body">
+                        <div class="profile d-flex justify-content-center align-self-center">
+                            <img class="rounded-circle img-fluid" src="./images/me.jpg"/>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid p-5 my-5" id="skills">
             <div class="row h-100">
                 <div class="col-12 col-md-6">
-                    <h1>my skills</h1>
-
+                    <div class="card-body text-center py-3">
+                        <h5>Front-End Skills</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h5 class="pt-3">Back-End Skill</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h5 class="pt-3">Full-Stack Skills</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <h1>my skills</h1>
-
+                    <div class="card-body green-border-radius text-center">
+                        <h1 class="text-center">Skills & Experience</h1>
+                        <p class="card-text my-3">Since beginning my journey as a developer, I spend a lot of my time enhancing my coding skills. 
+                            Most of my client's feedback was my websites are fast and easy to use. 
+                        </p>
+                        <p class="card-text">Check my <a href="#" class="font-weight-bold">Linked</a> for more details or <a class="font-weight-bold" href="#contact">connect</a> with me.</p>
+                        
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-dark text-white">
+        <div class="container-fluid  p-5 my-5 bg-light-green" id="work">
             <div class="row">
-                <div class="col-12">
-                    <h1>work</h1>
+                <div class="col-12 text-center">
+                    <h1 class="text-white">Work</h1>
 
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid p-5 my-5" id="contact">
+            <h1 class="text-center">Contact</h1>
             <div class="row">
-                <div class="col-12">
-                    <h1>contact</h1>
+                <div class="col-md-8">
+                    <h3 class="pt-2">Social Media</h3>
+                  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="card-body green-border-radius text-center p-3 mt-2">
+                        <div class="pt-2 pb-2"><i class="fas fa-phone fa-2x"></i></div>
+                        <div class="pt-2 pb-2"><a target="_blank" href="tel:09568015003" class="font-weight-normal"> 09568015003 </a></div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="card-body green-border-radius text-center p-3 mt-2">
+                        <div class="pt-2 pb-2"><i class="fas fa-envelope fa-2x"></i></div>
+                        <div class="pt-2 pb-2"><a class="font-weight-normal" data-toggle="collapse" href="#collapseForm" role="button" aria-expanded="false" aria-controls="collapseForm">
+                            shellachigi@gmail.com
+                            </a>
+                        </div>
+                    </div>
 
                 </div>
             </div>
+
+            <div class="collapse" id="collapseForm">
+                <div class="row my-4">
+                    <div class="col-md-12">
+                        <div class="card-body green-border">
+                            <h5 class="card-title text-left"> <u>Send Us A Message</u> </h5>
+                            <form>
+                                <div class="form-group">
+                                    <label for="fname">Full Name:</label>
+                                    <input type="text" class="form-control" id="fname" placeholder="Enter Full name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="msg">Message:</label>
+                                    <textarea class="form-control" id="msg" rows="3">Enter Message</textarea>
+                                </div>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button type="submit" class="btn btn-success" value="Submit">Send</button>
+                                </div> 
+                            </form>               
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <footer class="bg-dark p-1">
+        <footer class="bg-brown p-1">
             <p class="text-center text-white my-4">Copyright &#169; Your website 2021</p>
 
         </footer>
