@@ -1,0 +1,109 @@
+.bg-light-green {
+    background: #96BE8C;
+}
+
+.text-color-dark-green {
+    color: #629460;
+}
+
+.green-border {
+    border: 3px solid #629460;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+
+}
+
+.white-border {
+    border: 2px solid white;
+    border-radius: 15px 50px;
+}
+
+
+.menu a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+.menu a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #243119;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.menu a:hover::after {
+    transform: scaleX(1);
+}
+
+/* #home .card {
+    border-color: #629460;
+    border: 2px solid #629460;
+   
+} */
+
+#sname {
+    margin: 50px;
+    color: rgba(1,1,1,0.7);
+}
+
+#sname h1 {
+    font-weight: bold;
+    font-size: 4em;
+    transition: all 500ms;
+}
+    
+#sname h1:hover {
+    font-size:88px;
+    font-size-adjust: 20px;
+    color: #629460;
+}
+
+.course:hover {
+    color: #629460;
+}
+
+
+
+#about {
+    background-color: #96BE8C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media content*/
+@media screen and (max-width: 600px) {
+    #home .card-body{
+        margin: 2px;
+        padding: 3px;
+        font-size: 13px;
+    }
+
+    #sname h1:hover {
+        font-size:50px;
+        font-size-adjust: 13px;
+       
+    }
+
+
+
+
+}
