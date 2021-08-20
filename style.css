@@ -2,14 +2,16 @@
     background: #96BE8C;
 }
 
-.bg-brown {
-    /* background: #6B654B; */
-    /* background: #A38560;
-    background: #CDC776; */
-    background: #735F3D;
+.bg-blue {
+    background: #055C9E;
 
+}
 
-    
+.text-blue {
+    /* color: #243119; */
+    color: #055C9E;
+
+   
 }
 
 .text-color-dark-green {
@@ -33,6 +35,12 @@
     border-radius: 15px 50px;
 }
 
+.blue-border {
+    border: 2px solid #055C9E;
+    border-radius: 30px;
+
+
+}
 
 .menu a {
     position: relative;
@@ -80,6 +88,23 @@
 }
 
 /*
+*Work
+*/
+#work .card-body:hover {
+    background: #055C9E;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+/*
+*Skills
+*/
+.flex-area img {
+    width: 80px !important;
+}
+
+
+/*
 *About Page
 */
 
@@ -97,6 +122,12 @@
 textarea {
     resize: none;
 }
+
+#contact .card-body:hover {
+    background: #96BE8C;
+    color: white !important;
+}
+
 
 
 
