@@ -15,34 +15,45 @@
         <link rel="stylesheet" href="./style.css" type="text/css">
         <!--end custom css-->
         <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
         
         <title>Shella Marie | Software Developer</title>
 
     </head>
     <body>
         <!--Start of navbar-->
-        <nav class="navbar navbar-expand-lg bg-blue sticky-top menu">
-            <a class="navbar-brand" href="#home"><h3 id="logo" class="icon pt-2 text-white">ella;</h3></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item pr-2">
-                        <a class="nav-link text-white " href="#about">About</a>
-                    </li>
-                    <li class="nav-item pr-2">
-                        <a class="nav-link  text-white" href="#skills">My Skills</a>
-                    </li>
-                    <li class="nav-item pr-2">
-                        <a class="nav-link  text-white" href="#work">Work</a>
+            <a class="navbar-brand d-md-block d-lg-none" href="#home"><img class="logo" src="./images/ella-logo.png"/></a>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto ml-md-auto mt-2 mt-lg-0 menu">
+                    <li class="nav-item active">
+                    <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-white" href="#contact">Contact</a>
+                        <a class="nav-link text-white mt-2 mx-1" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white mt-2  mx-1" href="#skills">My Skills</a>
+                    </li>
+                    <li class="d-none d-lg-block">
+                        <a class="navbar-brand" href="#home"><img class="logo" src="./images/ella-logo.png"/></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white mt-2  mx-1" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-white mt-2  mx-1" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
+        
         <!--end of navbar-->
        <div class="container-fluid p-5 mt-5" id="home">
             <div class="row flex-wrap justify-content-center">
@@ -51,13 +62,13 @@
                         <h1>Hi! I'm Ella,</h1>
                         <h1>web developer</h1>
                         <h5 class="course">Front End Developer | Back End Developer | Full Stack Developer</h5>
-                        <a class="btn btn-outline-success mt-3" href="#contact" role="button">Let's try something amazing!</a>
+                        <a class="btn btn-success mt-3" href="#contact" role="button">Let's try something amazing!</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container-fluid p-5 my-5" id="about">
-            <div class="row h-100" >
+            <div class="row h-100 justify-content-center align-self-center">
                 <div class="col-12 col-md-6 order-2 order-md-1">
                     <div class="card-body white-border text-center">
                         <h1 class="text-center text-white">Me, Myself & I</h1>
@@ -71,9 +82,9 @@
                         <a href="#contact" class="card-link text-blue"><u class="font-weight-bold">Wanna create something special with me?</u></a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 order-1 order-md-2">
-                    <div class="card-body">
-                        <div class="profile d-flex justify-content-center align-self-center">
+                <div class="col-12 col-md-6 order-1 order-md-2 justify-content-center align-self-center">
+                    <div class="card-body text-center">
+                        <div class="profile">
                             <img class="rounded-circle img-fluid" src="./images/me.jpg"/>
                         </div>
                         
@@ -166,9 +177,9 @@
                 </div>
             </div> -->
             <div class="row">
-                <div class="col-md-4 col-12">
-                    <div class="card-body h-100">
-                        <div class="blue-border text-center h-100">
+                <div class="col-md-4 col-12 my-2">
+                    <div class="card-body blue-border h-100">
+                        <div class="text-center h-100">
                             <div class="my-2 p-3">
                                 <a target="_blank" href="http://fct.stylistinpocket.com/">
                                     <img class="img-fluid img-thumbnail" src="./images/fct-project.PNG">
@@ -181,9 +192,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div class="card-body h-100">
-                        <div class="blue-border text-center h-100">
+                <div class="col-md-4 col-12 my-2">
+                    <div class="card-body blue-border h-100">
+                        <div class="text-center h-100">
                             <div class="my-2 p-3">
                                 <a target="_blank" href="http://demo-account.sip-lite.com/login">
                                     <img class="img-fluid img-thumbnail" src="./images/rit-project.PNG">
@@ -196,9 +207,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div class="card-body h-100">
-                        <div class="blue-border text-center h-100">
+                <div class="col-md-4 col-12 my-2">
+                    <div class="card-body blue-border h-100 ">
+                        <div class="text-center h-100">
                             <div class="my-2 p-3">
                                 <a target="_blank" href="https://shelladiaz.github.io/s10/">
                                     <img class="img-fluid img-thumbnail" src="./images/ada-project.PNG">
@@ -278,7 +289,7 @@
         <div class="container-fluid p-5 my-5" id="contact">
             <h1 class="text-center pb-4">Contact</h1>
             <div class="row justify-content-center">
-                <div class="col-12 col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="card-body green-border-radius">
                         <h5 class="card-title text-left"> <u>Send Us A Message</u> </h5>
                         <form>
@@ -300,8 +311,8 @@
                         </form>               
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="row  mt-3">
+                <div class="col-lg-6 col-md-12">
+                    <div class="row mt-3">
                         <div class="card-body green-border-radius text-center m-3" data-toggle="tooltip" data-placement="top" title="Click my number to call me.">
                             <a target="_blank" href="tel:09568015003" class="font-weight-bold text-blue">
                                 <div class="pt-2 pb-2" data-toggle="tooltip" data-placement="top" title="Click my number to call me.">
@@ -345,11 +356,6 @@
                 </div>
 
                 
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-8 mt-3">
-                    
-                </div>
             </div>
 
         </div>
